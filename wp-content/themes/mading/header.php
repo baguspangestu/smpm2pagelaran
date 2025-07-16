@@ -261,7 +261,7 @@
               </ul>
             <?php } else { ?>
               <ul id="mading-ticker" class="newstickers">
-                <li>Untuk menambahkan running text silahkan ke Dashboard > Sekilas Info
+                <li>Untuk menambahkan running text silahkan ke Dashboard > Info Sekolah
                 </li>
               </ul>
             <?php } ?>

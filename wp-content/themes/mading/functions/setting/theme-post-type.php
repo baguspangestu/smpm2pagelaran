@@ -124,8 +124,8 @@ function create_post_type()
 		array(
 			'menu_icon' => 'dashicons-controls-back',
 			'labels' => array(
-				'name' => __('Sekilas Info'),
-				'singular_name' => __('Sekilas Info'),
+				'name' => __('Info Sekolah'),
+				'singular_name' => __('Info Sekolah'),
 				'add_new' => __('Data info baru?'),
 				'add_new_item' => __('Tambah info baru'),
 				'edit' => __('Edit'),

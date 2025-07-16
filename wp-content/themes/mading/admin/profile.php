@@ -254,7 +254,7 @@ jQuery(document).ready(function($) {
 	                    <td>
 	                      <input type="text" name="youtube" id="youtube"
 	                        value="<?php echo get_option('youtube'); ?>" /><span class="description">
-	                        <?php _e('contoh, http://youtube.com/pixanos', 'mading'); ?></span>
+	                        <?php _e('contoh, http://youtube.com/@pixanos', 'mading'); ?></span>
 	                    </td>
 	                  </tr>
 	                </table>

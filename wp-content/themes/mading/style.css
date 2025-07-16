@@ -771,7 +771,7 @@ h1.acent span {
 }
 
 .coverlay h3 {
-  font: 300 15px/1.3 Montserrat;
+  font: 600 16px/1.3 Montserrat;
 }
 
 .ccovlay {
@@ -830,7 +830,7 @@ h1.acent span {
 }
 
 .seccon h3 {
-  font: 300 15px/1.3 Montserrat;
+  font: 600 14px/1.3 Montserrat;
 }
 
 .barurg .twolas {
@@ -863,7 +863,7 @@ h1.acent span {
 }
 
 .twocon h3 {
-  font: 300 13px/1.3 Montserrat;
+  font: 600 12px/1.3 Montserrat;
 }
 
 /* editorial kepala */
@@ -953,7 +953,7 @@ h1.acent span {
 
 .peaduo h3.fopen {
   margin: 6px 6px 15px;
-  font: bold 30px/40px Montserrat;
+  font: bold 26px/40px Montserrat;
   letter-spacing: -3px;
 }
 
@@ -1053,7 +1053,7 @@ h1.acent span {
 }
 
 .six-info h3 a {
-  font: 400 14px/1.3 "Open Sans";
+  font: 600 12px/1.3 Montserrat;
 }
 
 .six-info.no-one h3 {
@@ -1263,7 +1263,7 @@ h1.acent span {
   z-index: 15;
   transition: all 0.5s ease 0.1s;
   text-align: center;
-  font: 13px/30px Montserrat;
+  font: 600 13px/30px Montserrat;
   text-transform: uppercase;
 }
 
@@ -1290,7 +1290,7 @@ h1.acent span {
   margin-top: 8px;
   transition: all 0.5s ease 0.1s;
   text-align: center;
-  font: 15px Montserrat;
+  font: 600 15px Montserrat;
   text-transform: lowercase;
 }
 
@@ -4355,7 +4355,7 @@ ul.newstickers span {
     right: 5px;
   }
   .seccon h3 {
-    font: 300 14px/1.3 Montserrat;
+    font: 600 14px/1.3 Montserrat;
   }
   h1.acent span {
     font: 700 100px/100px "Montserrat";
