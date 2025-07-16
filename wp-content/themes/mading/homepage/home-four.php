@@ -175,7 +175,11 @@
             </h3>
 
             <div class="homloop">
-              <?php query_posts('post_type=fasilitas&showposts=3&orderby=rand'); ?>
+              <?php
+              // query_posts('post_type=fasilitas&showposts=3&orderby=rand');
+              ?>
+
+              <?php query_posts('post_type=fasilitas&showposts=3'); ?>
 
               <?php if (have_posts()) { ?>
                 <?php $count = 0; ?>

@@ -9,6 +9,7 @@ get_header(); ?>
 <?php get_template_part('homepage/home-gallery'); ?>
 <?php get_template_part('homepage/home-quotes'); ?>
 <?php get_template_part('homepage/home-gtk'); ?>
+<?php get_template_part('homepage/home-video'); ?>
 
 <?php $gomaps = get_option('gomaps');
 switch ($gomaps) {

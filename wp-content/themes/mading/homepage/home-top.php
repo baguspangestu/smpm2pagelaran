@@ -155,9 +155,12 @@
 			<div class="rconbg">
 				<div class="editoz">
 					<div class="edspan"><?php echo (get_option('gtakaedit')) ? get_option('gtakaedit') : 'editorial' ?></div>
-					<?php query_posts('post_type=editorial&showposts=1'); ?>
+					<?php query_posts('post_type=editorial&showposts=1&order=ASC'); ?>
 					<?php if (have_posts()) { ?>
 						<?php while (have_posts()): the_post(); ?>
+
+							<div class="ttspan"><?php the_title(); ?></div>
+							<div class="tsspan"><?php the_content(); ?></div>
 
 							<?php if (has_post_thumbnail()) { ?>
 								<a href="<?php the_permalink() ?>">

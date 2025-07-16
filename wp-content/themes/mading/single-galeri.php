@@ -17,6 +17,15 @@
 								); ?>
 							</div>
 							<div class="post-content">
+								<?php if (has_post_thumbnail()) echo '<div class="post-img">' . get_the_post_thumbnail(
+									$post->ID,
+									'full',
+									array(
+										'alt' => trim(strip_tags($post->post_title)),
+										'title' => trim(strip_tags($post->post_title)),
+									)
+								) . '</div>';
+								?>
 								<?php the_content(); ?></div>
 						</div>
 						<div class="post-navigation clear">
