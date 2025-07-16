@@ -1,0 +1,169 @@
+
+	@-moz-keyframes mading {
+    0% {
+        background: rgba(0,0,0,0.9) url('../images/a1.png') center no-repeat;
+    }
+    11% {
+        background: rgba(0,0,0,0.9) url('../images/a9.png') center no-repeat;
+    }
+    22% {
+        background: rgba(0,0,0,0.9) url('../images/a8.png') center no-repeat;
+    }
+    33% {
+        background: rgba(0,0,0,0.9) url('../images/a7.png') center no-repeat;
+    }
+    44% {
+        background: rgba(0,0,0,0.9) url('../images/a6.png') center no-repeat;
+    }
+	55% {
+        background: rgba(0,0,0,0.9) url('../images/a5.png') center no-repeat;
+    }
+	66% {
+        background: rgba(0,0,0,0.9) url('../images/a4.png') center no-repeat;
+    }
+	77% {
+        background: rgba(0,0,0,0.9) url('../images/a3.png') center no-repeat;
+    }
+	88% {
+        background: rgba(0,0,0,0.9) url('../images/a2.png') center no-repeat;
+    }
+	100% {
+        background: rgba(0,0,0,0.9) url('../images/a1.png') center no-repeat;
+    }
+    }
+	
+	@-webkit-keyframes mading {
+    0% {
+        background: rgba(0,0,0,0.9) url('../images/a1.png') center no-repeat;
+    }
+    11% {
+        background: rgba(0,0,0,0.9) url('../images/a9.png') center no-repeat;
+    }
+    22% {
+        background: rgba(0,0,0,0.9) url('../images/a8.png') center no-repeat;
+    }
+    33% {
+        background: rgba(0,0,0,0.9) url('../images/a7.png') center no-repeat;
+    }
+    44% {
+        background: rgba(0,0,0,0.9) url('../images/a6.png') center no-repeat;
+    }
+	55% {
+        background: rgba(0,0,0,0.9) url('../images/a5.png') center no-repeat;
+    }
+	66% {
+        background: rgba(0,0,0,0.9) url('../images/a4.png') center no-repeat;
+    }
+	77% {
+        background: rgba(0,0,0,0.9) url('../images/a3.png') center no-repeat;
+    }
+	88% {
+        background: rgba(0,0,0,0.9) url('../images/a2.png') center no-repeat;
+    }
+	100% {
+        background: rgba(0,0,0,0.9) url('../images/a1.png') center no-repeat;
+    }
+    }
+	.severlay {
+    -moz-animation: mading .8s linear infinite;
+    -webkit-animation: mading .8s linear infinite
+}
+.seet {margin: 20px 20px 0 0; background: #fff; padding: 0; box-shadow: 0 0 10px #aaa; position: relative;}
+.seet .severlay {position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1;}
+.outer {clear: both; display: block;}
+#msub {position: fixed; top: 50%; right: 40px; z-index: 200; background: #65bd77; color: #fff; border: 0; border-radius: 3px; height:30px; line-height: 30px; display: none; padding: 0 15px; font-weight: bold; cursor:pointer;}
+.tab_block {position: relative; background: #25313e; border-top: 5px solid #89cc97; clear: both; height: 50px; padding: 10px 15px;}
+.mlogo {max-height:50px;}
+
+#reset {position: absolute; top: 20px; right: 110px; z-index: 200; background: #65bd77; color: #fff; border: 0; 
+border-radius: 3px; height:30px; line-height: 30px; padding: 0 15px; font-weight: bold; cursor:pointer;}
+#save {position: absolute; top: 15px; right: 20px; z-index: 200; background: #65bd77; color: #fff; border: 0; 
+border-radius: 3px; height:30px; line-height: 30px; padding: 0 15px; font-weight: bold; cursor:pointer;}
+
+.resetmore {background: rgba(0,0,0,0); color: #fff; position: absolute; top: 0; bottom: 0; left: 0; right: 0; padding: 50px;
+				text-align: center;z-index: -1;}
+.resetmore.rehide {z-index: 200; background: rgba(0,0,0,0.85);}
+.inreset {max-width: 400px; margin: 0 auto;}
+#sure {background: #65bd77; color: #fff; border: 0; 
+border-radius: 3px; height:30px; line-height: 30px; padding: 0 15px; font-weight: bold; cursor:pointer; display: inline-block;}
+#batal {background: #65bd77; color: #fff; border: 0; position: relative; z-index: 10; 
+border-radius: 3px; height:30px; width: 90px; opacity: 0; line-height: 30px; padding: 0 15px; cursor:pointer; display: inline-block;}
+.breset {background: #e62513; color: #fff; border: 0; text-align: center; margin: 0 0 0 -90px; position: relative; z-index: 5;
+border-radius: 3px; height:30px; line-height: 30px; width: 90px; padding: 0; font-weight: bold; cursor:pointer; display: inline-block;}
+
+.set_block {position: relative; background: #fff; clear: both;}
+.inn {position: relative;}
+.lmenu {position: absolute; top:0; left:0; bottom: 0; width: 220px; background: #41586e;}
+.curs {cursor: pointer; padding: 0 15px; font-weight: bold; line-height: 40px; color: #fff;}
+.welcome {background: #89cc97;}
+.curs:hover {background: #89cc97; color: #fff;}
+.curs a, .curs a:hover, .curs a:active, .curs a:focus {color: #fff; text-decoration: none; outline: 0 ! important;}
+.rmenu {margin-left: 220px; min-height: 600px;}
+.wel {padding: 20px; text-align: center;}
+.wel img {width:100px; height: 100px; padding: 10px; border-radius: 60px; box-shadow: 0 0 10px #ccc;}
+.content {font-size: 14px; max-width: 80%; margin: 0 auto 250px;}
+.btable {padding: 0 0 40px;}	
+td {padding: 10px 15px ; border-bottom: 1px solid #eee;}
+td.tl {width: 150px; background: #f7f7f7;}
+.top td.text { width: 150px; vertical-align: top; background: #f7f7f7; padding: 10px 15px ; border-right: 1px solid #eee;}
+.custom_media_image {max-width:100%;}		
+.custom_media_url {margin-bottom:10px; clear:right;}
+.custom_media_upload {background: #65bd77 ! important; color: #fff ! important; text-transform: uppercase; font weight: bold;}	
+td label {text-transform: uppercase; font-weight: bold; font-weight: 13px;}
+.top .head {padding: 20px 15px ;}
+.w20 {width: 20%; float: left;}
+.pw {padding: 6px 0; margin: 0 8px 8px 0; color: #fff; border-radius: 3px;}
+.bold {font-size: 14px; font-weight: bold; text-transform: uppercase;}
+input[type=radio]{
+  width     : 2em;
+}
+.lmenu .fa {display: none;}
+.default {background: #036}
+.black {background: #222222;}
+.blue {background: #0b82aa;}
+.cyan {background: #085a71;}
+.donker {background: #003355;}
+.forest {background: #03562b;}
+.green {background: #0d9c18;}
+.grey {background: #777;}
+.orange {background: #ff9900;}
+.red {background: #d42007;}
+.purple {background: #8c49a5;}
+.tosca {background: #0aa277;}
+
+
+.pekol {margin: 8px 15px 0 0; position: relative;}
+.kek, .wak, .sek, .bek, .lek, .fak, .pek, .tek, .aek , .mark, .box {position: absolute; right: 5px; top: 5px; width: 20px; height: 20px; text-align: center; 
+line-height: 20px; background: #000; color: #fff; font-size: 10px; font-weight: bold;}
+.pekol img {max-width: 100%; width: auto; height: auto;}
+.bl {display: block;}
+.no {display: none;}
+.half {width: 50%; float: left; margin: 0 0 8px;}
+.quarter {width: 25%; float: left; margin: 0 0 8px;}
+.trequarter {width: 75%; float: left;}
+
+@media screen and (max-width: 800px) {
+.rmenu {margin-left: 50px;}
+.lmenu {width: 50px; }
+.lmenu .fa {display: block; font-weight: bold; line-height: 50px; font-size: 22px; text-align: center;}
+.lmenu span {display: none;}
+td.tl { width: 100px;}
+.pengurus {float: left; width: 50%;}
+.quarter, .trequarter {width: 50%;}
+.w20 {
+    width: 25%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+td.tl input {display: block;}
+.w20 {
+    width: 50%;
+	}
+}
+@media screen and (max-width: 480px) {
+.quarter, .half, .trequarter {width: 100%;}
+.w20 {
+    width: 100%;
+	}
+}
