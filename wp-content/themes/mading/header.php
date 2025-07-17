@@ -185,8 +185,8 @@
           </div>
         </div>
       </div>
-      <!-- NAVIGASI TEMA MADING -->
 
+      <!-- NAVIGASI TEMA MADING -->
       <?php if (is_front_page()) {
         echo '<div id="ndeslide">';
         get_template_part('slider');
