@@ -51,8 +51,7 @@
 			<?php echo get_option('footer'); ?>
 		<?php } else { ?>
 			Copyright &copy; 2025 <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>.
-			<span><?php _e('Didukung oleh', 'mading'); ?> <a href="http://wordpress.org">WordPress</a>.
-				<?php _e('Tema Mading Mod oleh', 'mading'); ?> <a href="http://baguspangestu.com">Bagus Pangestu</a></span>
+			<span><?php _e('Didukung oleh', 'mading'); ?> <a href="http://wordpress.org">WordPress</a>.</span>
 		<?php } ?>
 	</div>
 </div>
