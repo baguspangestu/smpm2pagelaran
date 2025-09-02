@@ -279,9 +279,9 @@
                         </a>
                       <?php } ?>
                       <div class="top-post">
-                        <div class="metas"><?php echo (get_option('gtfasilitas')) ? get_option('gtfasilitas') : 'Fasilitas' ?>
-                        </div>
-                        <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                        <div style="font: 600 12px / 1.3 Montserrat; margin:0 8px;"><a style="color:white;"
+                            href="<?php the_permalink() ?>"><?php the_title(); ?></a></div>
+                        <div class="metas" style="color: white;"><?php the_content(); ?></div>
                       </div>
                     </div>
                   <?php } else { ?>
@@ -297,9 +297,9 @@
                           <img src="<?php echo get_template_directory_uri(); ?>/images/default.jpg" />
                         </a>
                       <?php } ?>
-                      <div class="metas"><?php echo (get_option('gtfasilitas')) ? get_option('gtfasilitas') : 'Fasilitas' ?>
-                      </div>
+
                       <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                      <div class="metas" style="color: #0d9c18;"><?php the_content(); ?></div>
                     </div>
 
                   <?php } ?>
