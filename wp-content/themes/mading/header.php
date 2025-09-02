@@ -203,9 +203,9 @@
             </div>
             <div class="massos">
               <div class="kontak">
-                <?php if (get_option('facebook')) { ?>
-                  <a href="<?php echo (get_option('facebook')) ? get_option('facebook') . '' : '' ?>" target="_blank">
-                    <i class="fa fa-brands fa-facebook-f"></i>
+                <?php if (get_option('twitter')) { ?>
+                  <a href="<?php echo (get_option('twitter')) ? get_option('twitter') . '' : '' ?>" target="_blank">
+                    <i class="fa fa-brands fa-whatsapp"></i>
                   </a>
                 <?php } ?>
                 <?php if (get_option('google')) { ?>
@@ -213,9 +213,9 @@
                     <i class="fa fa-brands fa-instagram"></i>
                   </a>
                 <?php } ?>
-                <?php if (get_option('twitter')) { ?>
-                  <a href="<?php echo (get_option('twitter')) ? get_option('twitter') . '' : '' ?>" target="_blank">
-                    <i class="fa fa-brands fa-x-twitter"></i>
+                <?php if (get_option('facebook')) { ?>
+                  <a href="<?php echo (get_option('facebook')) ? get_option('facebook') . '' : '' ?>" target="_blank">
+                    <i class="fa fa-brands fa-facebook-f"></i>
                   </a>
                 <?php } ?>
                 <?php if (get_option('youtube')) { ?>

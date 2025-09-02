@@ -174,6 +174,10 @@ list($ag, $ge, $en) = sscanf($agen, "#%02x%02x%02x");
     background: <?php echo (get_option('ribg')) ? get_option('ribg') : '#3bf' ?>;
   }
 
+  .kontak .fa-whatsapp {
+    background: <?php echo (get_option('ribg')) ? get_option('ribg') : '#3bf' ?>;
+  }
+
   .kontak .fa-envelope {
     background: <?php echo (get_option('ribg')) ? get_option('ribg') : '#8c3' ?>;
   }

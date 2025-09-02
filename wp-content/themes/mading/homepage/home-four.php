@@ -168,90 +168,6 @@
           </div>
           <!-- Blog Guru -->
 
-          <!-- Fasilitas-->
-          <div class="peaduo hleft">
-            <h3 class="fopen">
-              <?php echo (get_option('gtfasilitas')) ? get_option('gtfasilitas') : 'Fasilitas' ?>
-            </h3>
-
-            <div class="homloop">
-              <?php
-              // query_posts('post_type=fasilitas&showposts=3&orderby=rand');
-              ?>
-
-              <?php query_posts('post_type=fasilitas&showposts=3'); ?>
-
-              <?php if (have_posts()) { ?>
-                <?php $count = 0; ?>
-                <?php while (have_posts()): the_post(); ?>
-                  <?php $count++; ?>
-
-                  <?php if ($count == 1) { ?>
-                    <div class="six-info n-one clear">
-                      <?php if (has_post_thumbnail()) { ?>
-                        <a href="<?php the_permalink() ?>" class="pealink"><?php the_post_thumbnail('news', array(
-                                                                              'alt' => trim(strip_tags($post->post_title)),
-                                                                              'title' => trim(strip_tags($post->post_title)),
-                                                                            )); ?>
-                        </a>
-                      <?php } else { ?>
-                        <a href="#" class="pealink">
-                          <img src="<?php echo get_template_directory_uri(); ?>/images/default.jpg" />
-                        </a>
-                      <?php } ?>
-                      <div class="top-post">
-                        <div class="metas"><?php echo (get_option('gtfasilitas')) ? get_option('gtfasilitas') : 'Fasilitas' ?>
-                        </div>
-                        <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-                      </div>
-                    </div>
-                  <?php } else { ?>
-                    <div class="six-info no-one clear">
-                      <?php if (has_post_thumbnail()) { ?>
-                        <a href="<?php the_permalink() ?>" class="pealink"><?php the_post_thumbnail('news', array(
-                                                                              'alt' => trim(strip_tags($post->post_title)),
-                                                                              'title' => trim(strip_tags($post->post_title)),
-                                                                            )); ?>
-                        </a>
-                      <?php } else { ?>
-                        <a href="#" class="pealink">
-                          <img src="<?php echo get_template_directory_uri(); ?>/images/default.jpg" />
-                        </a>
-                      <?php } ?>
-                      <div class="metas"><?php echo (get_option('gtfasilitas')) ? get_option('gtfasilitas') : 'Fasilitas' ?>
-                      </div>
-                      <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-                    </div>
-
-                  <?php } ?>
-                <?php endwhile; ?>
-              <?php } else { ?>
-                <div class="six-info n-one clear">
-                  <a href="#" class="pealink">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/default.jpg" />
-                  </a>
-                  <div class="top-post">
-                    <div class="metas"><?php echo (get_option('gtfasilitas')) ? get_option('gtfasilitas') : 'Fasilitas' ?>
-                    </div>
-                    <h3><a href="#">Contoh Post Pengumuman Sekolah, Pengumuman Pertama</a></h3>
-                  </div>
-                </div>
-                <div class="six-info no-one clear">
-                  <a href="#" class="pealink">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/default.jpg" />
-                  </a>
-                  <div class="metas"><?php echo (get_option('gtfasilitas')) ? get_option('gtfasilitas') : 'Fasilitas' ?>
-                  </div>
-                  <h3><a href="#">Contoh Post Pengumuman Sekolah, Pengumuman Kedua</a></h3>
-                </div>
-              <?php } ?>
-              <div class="readmore"><span><a href="<?php echo home_url('/fasilitas/'); ?>">Selengkapnya</a></span></div>
-              <?php wp_reset_query(); ?>
-            </div>
-
-          </div>
-          <!-- Fasilitas-->
-
           <!-- Prestasi -->
           <div class="peaduo hleft">
 
@@ -331,6 +247,89 @@
           </div>
           <!-- Prestasi -->
 
+          <!-- Ekskul-->
+          <div class="peaduo hleft">
+            <h3 class="fopen">
+              <?php echo (get_option('gtfasilitas')) ? get_option('gtfasilitas') : 'Fasilitas' ?>
+            </h3>
+
+            <div class="homloop">
+              <?php
+              // query_posts('post_type=fasilitas&showposts=3&orderby=rand');
+              ?>
+
+              <?php query_posts('post_type=ekskul&showposts=3&orderby=rand'); ?>
+
+              <?php if (have_posts()) { ?>
+                <?php $count = 0; ?>
+                <?php while (have_posts()): the_post(); ?>
+                  <?php $count++; ?>
+
+                  <?php if ($count == 1) { ?>
+                    <div class="six-info n-one clear">
+                      <?php if (has_post_thumbnail()) { ?>
+                        <a href="<?php the_permalink() ?>" class="pealink"><?php the_post_thumbnail('news', array(
+                                                                              'alt' => trim(strip_tags($post->post_title)),
+                                                                              'title' => trim(strip_tags($post->post_title)),
+                                                                            )); ?>
+                        </a>
+                      <?php } else { ?>
+                        <a href="#" class="pealink">
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/default.jpg" />
+                        </a>
+                      <?php } ?>
+                      <div class="top-post">
+                        <div class="metas"><?php echo (get_option('gtfasilitas')) ? get_option('gtfasilitas') : 'Fasilitas' ?>
+                        </div>
+                        <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                      </div>
+                    </div>
+                  <?php } else { ?>
+                    <div class="six-info no-one clear">
+                      <?php if (has_post_thumbnail()) { ?>
+                        <a href="<?php the_permalink() ?>" class="pealink"><?php the_post_thumbnail('news', array(
+                                                                              'alt' => trim(strip_tags($post->post_title)),
+                                                                              'title' => trim(strip_tags($post->post_title)),
+                                                                            )); ?>
+                        </a>
+                      <?php } else { ?>
+                        <a href="#" class="pealink">
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/default.jpg" />
+                        </a>
+                      <?php } ?>
+                      <div class="metas"><?php echo (get_option('gtfasilitas')) ? get_option('gtfasilitas') : 'Fasilitas' ?>
+                      </div>
+                      <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                    </div>
+
+                  <?php } ?>
+                <?php endwhile; ?>
+              <?php } else { ?>
+                <div class="six-info n-one clear">
+                  <a href="#" class="pealink">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/default.jpg" />
+                  </a>
+                  <div class="top-post">
+                    <div class="metas"><?php echo (get_option('gtfasilitas')) ? get_option('gtfasilitas') : 'Fasilitas' ?>
+                    </div>
+                    <h3><a href="#">Contoh Post Pengumuman Sekolah, Pengumuman Pertama</a></h3>
+                  </div>
+                </div>
+                <div class="six-info no-one clear">
+                  <a href="#" class="pealink">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/default.jpg" />
+                  </a>
+                  <div class="metas"><?php echo (get_option('gtfasilitas')) ? get_option('gtfasilitas') : 'Fasilitas' ?>
+                  </div>
+                  <h3><a href="#">Contoh Post Pengumuman Sekolah, Pengumuman Kedua</a></h3>
+                </div>
+              <?php } ?>
+              <div class="readmore"><span><a href="<?php echo home_url('/ekskul/'); ?>">Selengkapnya</a></span></div>
+              <?php wp_reset_query(); ?>
+            </div>
+
+          </div>
+          <!-- Ekskul-->
 
         </div>
       </div>

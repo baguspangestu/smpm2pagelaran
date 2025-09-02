@@ -228,7 +228,7 @@ jQuery(document).ready(function($) {
 	                    <td>
 	                      <input type="text" name="facebook" id="facebook"
 	                        value="<?php echo get_option('facebook'); ?>" /><span class="description">
-	                        <?php _e('contoh, http://facebook.com/penikmatlore', 'mading'); ?></span>
+	                        <?php _e('contoh, https://facebook.com/penikmatlore', 'mading'); ?></span>
 	                    </td>
 	                  </tr>
 
@@ -236,16 +236,17 @@ jQuery(document).ready(function($) {
 	                    <td class="tl"><label for="google"><?php _e('Instagram', 'mading'); ?></label></td>
 	                    <td>
 	                      <input type="text" name="google" id="google" value="<?php echo get_option('google'); ?>" /><span
-	                        class="description"> <?php _e('contoh, http://instagram.com/penikmatlore', 'mading'); ?></span>
+	                        class="description">
+	                        <?php _e('contoh, https://instagram.com/penikmatlore', 'mading'); ?></span>
 	                    </td>
 	                  </tr>
 
 	                  <tr valign="top">
-	                    <td class="tl"><label for="twitter"><?php _e('X', 'mading'); ?></label></td>
+	                    <td class="tl"><label for="twitter"><?php _e('WhatsApp', 'mading'); ?></label></td>
 	                    <td>
 	                      <input type="text" name="twitter" id="twitter"
 	                        value="<?php echo get_option('twitter'); ?>" /><span class="description">
-	                        <?php _e('contoh, http://x.com/penikmatlore', 'mading'); ?></span>
+	                        <?php _e('contoh, https://wa.me/qr/EPXIP7E2S5A5M1', 'mading'); ?></span>
 	                    </td>
 	                  </tr>
 
@@ -254,7 +255,7 @@ jQuery(document).ready(function($) {
 	                    <td>
 	                      <input type="text" name="youtube" id="youtube"
 	                        value="<?php echo get_option('youtube'); ?>" /><span class="description">
-	                        <?php _e('contoh, http://youtube.com/@pixanos', 'mading'); ?></span>
+	                        <?php _e('contoh, https://youtube.com/@pixanos', 'mading'); ?></span>
 	                    </td>
 	                  </tr>
 	                </table>
