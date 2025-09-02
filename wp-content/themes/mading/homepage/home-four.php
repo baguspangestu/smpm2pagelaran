@@ -275,7 +275,7 @@
                         </a>
                       <?php } else { ?>
                         <a href="#" class="pealink">
-                          <img src="<?php echo get_template_directory_uri(); ?>/images/default.jpg" />
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/placeholder2.jpg" />
                         </a>
                       <?php } ?>
                       <div class="top-post">
@@ -294,7 +294,7 @@
                         </a>
                       <?php } else { ?>
                         <a href="#" class="pealink">
-                          <img src="<?php echo get_template_directory_uri(); ?>/images/default.jpg" />
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/placeholder2.jpg" />
                         </a>
                       <?php } ?>
 
@@ -307,7 +307,7 @@
               <?php } else { ?>
                 <div class="six-info n-one clear">
                   <a href="#" class="pealink">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/default.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/placeholder2.jpg" />
                   </a>
                   <div class="top-post">
                     <div class="metas"><?php echo (get_option('gtfasilitas')) ? get_option('gtfasilitas') : 'Fasilitas' ?>
@@ -317,7 +317,7 @@
                 </div>
                 <div class="six-info no-one clear">
                   <a href="#" class="pealink">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/default.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/placeholder2.jpg" />
                   </a>
                   <div class="metas"><?php echo (get_option('gtfasilitas')) ? get_option('gtfasilitas') : 'Fasilitas' ?>
                   </div>
